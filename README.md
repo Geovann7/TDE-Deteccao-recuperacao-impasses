@@ -1,0 +1,1 @@
+# TDE-Deteccao-recuperacao-impasses

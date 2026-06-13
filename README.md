@@ -59,6 +59,7 @@ Prints/logs de execução
 
 
 PARTICIPAÇÃO DOS INTEGRANTES
+
 Cada integrante participou do desenvolvimento do trabalho utilizando sua respectiva conta do Github, realizando commits relacionado a sua parte do trabalho.  
 
 

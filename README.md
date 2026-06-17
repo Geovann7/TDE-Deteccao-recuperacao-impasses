@@ -27,23 +27,26 @@ Rhadija Lopes de Souza:               Rhadijante13-byte<br>
 
 
 
-**-----------------------**
+**-----------------------**<br>
 
-**Linguagem escolhida para o desenvolvimento do trabalho:** Python
+**Linguagem escolhida para o desenvolvimento do trabalho:** Python<br>
 
-**Estrutura do Repositório:**
+**Estrutura do Repositório:**<br>
 
 
 
-x<br>
-x<br>
-x<br>
-x<br>
-x<br>
-x<br>
-x<br>
-x<br>
-x<br>
+<img width="246" height="259" alt="image" src="https://github.com/user-attachments/assets/6c2dad5e-de3d-4e3d-ac63-1e95f75046b0" />
+
+A pasta parte1-filosofos contém os códigos referentes ao problema do jantar dos filósofos. Com a versão em deadlock e a versão corrigida sem deadlock.<br>
+
+A pasta2-semaforo contém os códigos referentes ao uso de threads com e sem semáforo.<br>
+
+A pasta3-deadlock contém os códigos referentes à simulação de deadlock com locks e à versão corrigida.<br>
+
+O arquivo README.md está localizado na raiz do repositório e contém as informações do grupo, instruções de execução, relatórios técnicos, prints de execução e o link do vídeo do youtube.<br>
+
+
+<br><br>
 
 **-----------------------**<br>
 **Instruções de Compilação e Excução**

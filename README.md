@@ -33,21 +33,7 @@ Rhadija Lopes de Souza:               Rhadijante13-byte<br>
 
 **Estrutura do Repositório:**
 
-/
-├── parte1-filosofos/
-│ ├── FilosofosIngenuo.[java/py]
-│ └── FilosofosHierarquia.[java/py]
-├── parte2-semaforo/
-│ ├── ContadorSemSincronizacao.[java/py]
-│ └── ContadorComSemaforo.[java/py]
-├── parte3-deadlock/
-│ ├── DeadlockIngenuo.[java/py]
-│ └── DeadlockCorrigido.[java/py]
-├── images/
-│ ├── parte1_logs.png
-│ ├── parte2_tabela.png
-│ └── parte3_logs.png
-└── README.md
+
 
 x<br>
 x<br>
@@ -72,34 +58,36 @@ Exemplo: **python3 FilosofosTravado.py**
 
 
 
-Estrutura do Repositório:
-
-PARTE 1 - JANTAR DOS FILÓSOFOS
-
-Descrição Técnica:
-
-INSTRUÇÕES DE COMPILAÇÃO E EXECUÇÃO
-
-Compilação
-
-Execução
-
-Prints/logs de execução
-
-PARTE 2 - THREADS E SEMÁFOROS
-
-Descrição Técnica:
-
-INSTRUÇÕES DE COMPILAÇÃO E EXECUÇÃO
-
-Compilação
-
-Execução
-
-Prints/logs de execução
+**-----------------------**
 
 
-## Modulo 3 - Deadlock
+
+## Módulo 1 - JANTAR DOS FILÓSOFOS
+
+x<br>
+x<br>
+x<br>
+x<br>
+x<br>
+x<br>
+x<br>
+x<br>
+x<br>
+
+## Módulo 2 - THREADS E SEMÁFOROS
+
+x<br>
+x<br>
+x<br>
+x<br>
+x<br>
+x<br>
+x<br>
+x<br>
+x<br>
+
+
+## Módulo 3 - Deadlock
 **Cenário com Deadlock**<br>
 **Problema:** Existem duas threads e dois locks. A Thread 1 adquire A depois B, a Thread 2 adquire B depois A. Isso cria uma espera circular.
 
@@ -117,43 +105,6 @@ Para solucionar o problema, todas as threads devem adquirir o LOCK A antes do LO
  <img width="319" height="317" alt="Captura de tela de 2026-06-17 01-46-36" src="https://github.com/user-attachments/assets/0bca3290-e952-4a1b-8848-ae7f850816e9" />
 
 **Condição de Coffman quebrada:** Espera circular, pois não é mais possivel formar um ciclo de espera entre os recursos
-
-
-Estrutura mínima sugerida: pastas parte1
--
-filosofos/, parte2
--
-semaforo/, parte3
--
-deadlock/,
-cada uma com seu(s) arquivo(s) fonte; arquivo README.md na raiz.
-
-O README deve conter: nome do grupo e dos integrantes, linguagem escolhida, instruções
-de compilação e execução, relatório técnico de cada parte, prints/logs de execução e o link
-do vídeo no YouTube.
-
-Histórico de commits
- 
-deve refletir a participação de todos os integrantes (cada aluno usando
-sua própria conta do GitHub). Repositórios com commits concentrados em um único autor
-poderão ser penalizados.DEADLOCK
-
-Descrição Técnica:
-
-INSTRUÇÕES DE COMPILAÇÃO E EXECUÇÃO
-
-Compilação
-
-Execução
-
-Prints/logs de execução
-
-
-PARTICIPAÇÃO DOS INTEGRANTES
-
-Cada integrante participou do desenvolvimento do trabalho utilizando sua respectiva conta do Github, realizando commits relacionado a sua parte do trabalho.  
-
-
 
 
 

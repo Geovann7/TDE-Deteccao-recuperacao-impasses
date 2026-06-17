@@ -45,7 +45,38 @@ Execução
 Prints/logs de execução
 
 
-PARTE 3 - DEADLOCK
+### Modulo 3 - Deadlock###
+
+**Problema:** Existem duas threas e dois locks. A Thread 1 adquire A depois B, a Thread 2 adquire B depois A. Isso cria uma espera circular.
+
+**Saída do código do arquivo "DeadlockTrava.py", onde vai ocorrer um deadlock.**
+
+
+
+ 
+públic
+ 
+no GitHub contendo todo o material do
+trabalho.
+
+Estrutura mínima sugerida: pastas parte1
+-
+filosofos/, parte2
+-
+semaforo/, parte3
+-
+deadlock/,
+cada uma com seu(s) arquivo(s) fonte; arquivo README.md na raiz.
+
+O README deve conter: nome do grupo e dos integrantes, linguagem escolhida, instruções
+de compilação e execução, relatório técnico de cada parte, prints/logs de execução e o link
+do vídeo no YouTube.
+
+Histórico de commits
+ 
+deve refletir a participação de todos os integrantes (cada aluno usando
+sua própria conta do GitHub). Repositórios com commits concentrados em um único autor
+poderão ser penalizados.DEADLOCK
 
 Descrição Técnica:
 

@@ -99,7 +99,7 @@ Para encerrar: Ctrl + C<br>
 
 
 
-
+<br><br>
 **Cenário com Deadlock**<br>
 No arquivo filosofostravado.py, foi implementada a versão ingênua do problema do Jantar dos Filósofos. Nessa versão, existem 5 filósofos e 5 garfos. Cada filósofo alterna entre pensar, ficar com fome e tentar comer.<br>
 

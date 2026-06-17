@@ -131,7 +131,7 @@ Fim<br>
 Nessa versão, o progresso não é garantido, pois as threads podem ficar presas em deadlock. Quando isso acontece, nenhum filósofo consegue continuar comendo, porque todos ficam esperando pelo segundo garfo.<br>
 
 **Execução**<br>
-Terminal: python filosofostravados.py
+Terminal: python filosofostravados.py<br>
 para encerrar é o botão do pycharm: stop 'filosofostravado'<br>
 
 A saída do código do arquivo filosofostravdo.py, onde pode ocorrer deadlock:

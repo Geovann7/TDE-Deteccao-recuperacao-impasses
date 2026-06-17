@@ -95,6 +95,11 @@ Para encerrar: Ctrl + C<br>
 **Isso elimina a espera circular, a condição de Coffman que causaria o deadlock.**
 <br>
 
+
+
+
+
+
 **Cenário com Deadlock**<br>
 No arquivo filosofostravado.py, foi implementada a versão ingênua do problema do Jantar dos Filósofos. Nessa versão, existem 5 filósofos e 5 garfos. Cada filósofo alterna entre pensar, ficar com fome e tentar comer.<br>
 

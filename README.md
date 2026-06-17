@@ -85,9 +85,7 @@ maior = max(garfo_esquerda, garfo_direita)
 garfos[menor].acquire()
 garfos[maior].acquire()
 
-**Execução:**
-terminal>   “python FilosofosSemTravar.py”
-Para encerrar: Ctrl + C<br>
+<br><br>
 
 **Saída do código do arquivo "FilosofosSemTravar.py", onde não ocorre deadlock:**<br><b>
 <img width="456" height="460" alt="Captura de tela 2026-06-17 011913" src="https://github.com/user-attachments/assets/f4d02c3b-98bc-4e5d-b780-fd1b9a13f2d0" />
@@ -135,9 +133,7 @@ Fim<br>
 
 Nessa versão, o progresso não é garantido, pois as threads podem ficar presas em deadlock. Quando isso acontece, nenhum filósofo consegue continuar comendo, porque todos ficam esperando pelo segundo garfo.<br>
 
-**Execução**<br>
-Terminal: python filosofostravados.py<br>
-para encerrar é o botão do pycharm: stop 'filosofostravado'<br>
+<br><br>
 
 A saída do código do arquivo filosofostravdo.py, onde pode ocorrer deadlock:<br>
 

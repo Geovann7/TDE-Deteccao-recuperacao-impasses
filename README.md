@@ -74,6 +74,27 @@ x<br>
 x<br>
 x<br>
 
+**Descrição**<br>
+O Jantar dos Filósofos modela 5 filósofos sentados em mesa circular, alternando entre pensar e comer. Para comer, cada filósofo precisa pegar os dois garfos adjacentes (esquerdo e direito), compartilhados com os vizinhos.
+
+**Solução adotada: hierarquia de recursos**
+
+Cada garfo recebe um índice único (0 a 4). Todos os filósofos pegam sempre o garfo de menor índice primeiro, depois o de maior. Isso elimina a espera circular, a condição de Coffman que causaria o deadlock.<br>
+menor = min(garfo_esquerda, garfo_direita)
+maior = max(garfo_esquerda, garfo_direita)
+garfos[menor].acquire()
+garfos[maior].acquire()
+
+**Execução:**
+terminal>   “python FilosofosSemTravar.py”
+Para encerrar: Ctrl + C<br>
+
+**Saída do código do arquivo "FilosofosSemTravar.py", onde não ocorre deadlock:**<br><b>
+<img width="456" height="460" alt="Captura de tela 2026-06-17 011913" src="https://github.com/user-attachments/assets/f4d02c3b-98bc-4e5d-b780-fd1b9a13f2d0" />
+
+**Isso elimina a espera circular, a condição de Coffman que causaria o deadlock.**
+<br>
+
 ## Módulo 2 - THREADS E SEMÁFOROS
 
 x<br>

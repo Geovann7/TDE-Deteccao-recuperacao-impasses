@@ -29,7 +29,7 @@ Rhadija Lopes de Souza:               Rhadijante13-byte<br>
 
 **-----------------------**
 
-**Linguagem escolhida para o desenvolvimento do trabalho:** Java
+**Linguagem escolhida para o desenvolvimento do trabalho:** Python
 
 **Estrutura do Repositório:**
 

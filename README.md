@@ -142,16 +142,16 @@ A saída do código do arquivo filosofostravdo.py, onde pode ocorrer deadlock:<b
 
 ## Módulo 2 - THREADS E SEMÁFOROS
 **Cenário sem sincronização**<br>
-**Problema:** 8 threads incrementam 200.000 vezes cada uma uma variável global contador, sem nenhum mecanismo de controle de acesso. O valor esperado é T × M = 8 × 200.000 = 1.600.000, mas a operação de incremento não é atômica, podendo causar condição de corrida (Race Condition).
+**Problema:** 8 threads incrementam 200.000 vezes cada uma uma variável global contador, sem nenhum mecanismo de controle de acesso. O valor esperado é T × M = 8 × 200.000 = 1.600.000, mas a operação de incremento não é interrompivel, podendo causar condição de corrida (Race Condition).
 
 **Saída do código do arquivo "ThreadsSemSemafaro.py", com 3 execuções:**
 
 <img width="319" height="317" alt="WhatsApp Image 2026-06-17 at 14 36 42 (1)" src="https://github.com/user-attachments/assets/31d9b0fc-afe4-4012-b8e6-3e36ae53c356" />
 
-Teste	Esperado	Obtido	Tempo (s) <br>
-1	1.600.000	1.600.000	0,060 <br>
-2	1.600.000	1.600.000	0,055 <br>
-3	1.600.000	1.600.000	0,072
+Teste	/ Esperado	/ Obtido	/ Tempo (s) <br>
+1/	1.600.000	/ 1.600.000	/ 0,060 <br>
+2/	1.600.000	/ 1.600.000	/ 0,055 <br>
+3/	1.600.000	/ 1.600.000	/ 0,072
 
 <br><br>
 **Cenário com semáforo**<br>
@@ -161,10 +161,10 @@ Para solucionar o problema, utiliza-se um semáforo binário (threading.Semaphor
 
 <img width="319" height="317" alt="WhatsApp Image 2026-06-17 at 14 36 42 (3)" src="https://github.com/user-attachments/assets/c58bb724-b158-4640-b5bd-dca628bfdb55" />
 
-Teste	Esperado	Obtido	Tempo (s) <br>
-1	1.600.000	1.600.000	1,32 <br>
-2	1.600.000	1.600.000	1,16 <br>
-3	1.600.000	1.600.000	1,19
+Teste	/ Esperado	/ Obtido	/ Tempo (s) <br>
+1/	1.600.000	/ 1.600.000	/ 1,32 <br>
+2/	1.600.000	/ 1.600.000	/ 1,16 <br>
+3/	1.600.000	/ 1.600.000	/ 1,19
 
 <br><br>
 ## Módulo 3 - Deadlock

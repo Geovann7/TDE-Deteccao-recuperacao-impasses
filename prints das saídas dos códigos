@@ -1,0 +1,31 @@
+## Módulo 1 - JANTAR DOS FILÓSOFOS
+
+**Saída do código do arquivo "FilosofosSemTravar.py", onde não ocorre deadlock:**<br><b>
+<img width="456" height="460" alt="Captura de tela 2026-06-17 011913" src="https://github.com/user-attachments/assets/f4d02c3b-98bc-4e5d-b780-fd1b9a13f2d0" />
+
+
+A saída do código do arquivo filosofostravdo.py, onde pode ocorrer deadlock:<br>
+
+<img width="1265" height="440" alt="Captura de tela 2026-06-17 161844" src="https://github.com/user-attachments/assets/d80a520b-79eb-48d8-a4d2-57faf63c50bf" />
+
+## Módulo 2 - THREADS E SEMÁFOROS
+
+**Saída do código do arquivo "ThreadsSemSemafaro.py", com 3 execuções:**
+
+<img width="319" height="317" alt="WhatsApp Image 2026-06-17 at 14 36 42 (1)" src="https://github.com/user-attachments/assets/31d9b0fc-afe4-4012-b8e6-3e36ae53c356" />
+
+**Saída do código do arquivo "ThreadsComSemafaro2.py", com 3 execuções:**
+
+<img width="319" height="317" alt="WhatsApp Image 2026-06-17 at 14 36 42 (3)" src="https://github.com/user-attachments/assets/c58bb724-b158-4640-b5bd-dca628bfdb55" />
+
+
+## Módulo 3 - Deadlock
+
+**Saída do código do arquivo "DeadlockTrava.py", onde vai ocorrer um deadlock:**
+
+<img width="297" height="198" alt="Captura de tela de 2026-06-17 01-46-25" src="https://github.com/user-attachments/assets/dd91cb57-882e-4346-9a0c-b9bf1029de2b" />
+
+
+**Saída do código do arquivo "DeadlockSemTravar.py", onde não ocorre deadlock:**
+
+ <img width="319" height="317" alt="Captura de tela de 2026-06-17 01-46-36" src="https://github.com/user-attachments/assets/0bca3290-e952-4a1b-8848-ae7f850816e9" />

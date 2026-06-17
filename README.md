@@ -92,7 +92,7 @@ garfos[maior].acquire()
 
 <br><br>
 **Cenário com Deadlock**<br>
-No arquivo FilosofosTravado.py, foi implementada a versão ingênua do problema do Jantar dos Filósofos. Nessa versão, existem 5 filósofos e 5 garfos. Cada filósofo alterna entre pensar, ficar com fome e tentar comer.<br>
+No arquivo filosofostravado.py, foi implementada a versão ingênua do problema do Jantar dos Filósofos. Nessa versão, existem 5 filósofos e 5 garfos. Cada filósofo alterna entre pensar, ficar com fome e tentar comer.<br>
 
 Para comer, cada filósofo tenta pegar primeiro o garfo da esquerda e depois o grafo da direita:<br>
 
@@ -128,7 +128,7 @@ Nessa versão, o progresso não é garantido, pois as threads podem ficar presas
 
 <br><br>
 
-A saída do código do arquivo FilosofosTravado.py, onde pode ocorrer deadlock:<br>
+A saída do código do arquivo filosofostravado.py, onde pode ocorrer deadlock:<br>
 
 <img width="1265" height="440" alt="Captura de tela 2026-06-17 161844" src="https://github.com/user-attachments/assets/d80a520b-79eb-48d8-a4d2-57faf63c50bf" />
 

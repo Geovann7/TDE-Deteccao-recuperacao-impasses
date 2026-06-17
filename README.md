@@ -35,7 +35,8 @@ Rhadija Lopes de Souza:               Rhadijante13-byte<br>
 
 
 
-<img width="246" height="259" alt="image" src="https://github.com/user-attachments/assets/6c2dad5e-de3d-4e3d-ac63-1e95f75046b0" />
+<img width="248" height="293" alt="image" src="https://github.com/user-attachments/assets/d7d61eab-43b6-463f-ab0a-74829af6d17d" />
+
 
 A pasta parte1-filosofos contém os códigos referentes ao problema do jantar dos filósofos. Com a versão em deadlock e a versão corrigida sem deadlock.<br>
 

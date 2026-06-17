@@ -110,19 +110,19 @@ O deadlock pode acontecer quando todos os filósofos pegam o garfo da esquerda a
 
 Início<br>
 
-Criar 5 filósofos
+Criar 5 filósofos<br>
 Criar 5 garfos<br>
 
-Para cada filósofo:
-Pensar
+Para cada filósofo:<br>
+Pensar<br>
 ficar com fome<br>
 
-Definir garfo da esquerda
+Definir garfo da esquerda<br>
 Definir garfo da direita<br>
 
 Comer<br>
 
-Soltar garfo da direita
+Soltar garfo da direita<br>
 Soltar garfo da esquerda<br>
 
 Volta a pensar<br>
@@ -134,7 +134,7 @@ Nessa versão, o progresso não é garantido, pois as threads podem ficar presas
 Terminal: python filosofostravados.py<br>
 para encerrar é o botão do pycharm: stop 'filosofostravado'<br>
 
-A saída do código do arquivo filosofostravdo.py, onde pode ocorrer deadlock:
+A saída do código do arquivo filosofostravdo.py, onde pode ocorrer deadlock:<br>
 
 <img width="1265" height="440" alt="Captura de tela 2026-06-17 161844" src="https://github.com/user-attachments/assets/d80a520b-79eb-48d8-a4d2-57faf63c50bf" />
 

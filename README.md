@@ -67,16 +67,6 @@ Exemplo: **python3 FilosofosTravado.py**
 
 ## Módulo 1 - JANTAR DOS FILÓSOFOS
 
-x<br>
-x<br>
-x<br>
-x<br>
-x<br>
-x<br>
-x<br>
-x<br>
-x<br>
-
 **Descrição**<br>
 O Jantar dos Filósofos modela 5 filósofos sentados em mesa circular, alternando entre pensar e comer. Para comer, cada filósofo precisa pegar os dois garfos adjacentes (esquerdo e direito), compartilhados com os vizinhos.
 
@@ -102,7 +92,7 @@ garfos[maior].acquire()
 
 <br><br>
 **Cenário com Deadlock**<br>
-No arquivo filosofostravado.py, foi implementada a versão ingênua do problema do Jantar dos Filósofos. Nessa versão, existem 5 filósofos e 5 garfos. Cada filósofo alterna entre pensar, ficar com fome e tentar comer.<br>
+No arquivo FilosofosTravado.py, foi implementada a versão ingênua do problema do Jantar dos Filósofos. Nessa versão, existem 5 filósofos e 5 garfos. Cada filósofo alterna entre pensar, ficar com fome e tentar comer.<br>
 
 Para comer, cada filósofo tenta pegar primeiro o garfo da esquerda e depois o grafo da direita:<br>
 
@@ -110,7 +100,7 @@ garfos[garfo_esquerda].acquire()<br>
 time.sleep(1)<br>
 garfos[garfo_direita].acquire()<br>
 
-O deadlock pode acontecer quando todos os filósofos pegam o garfo da esquerda ao mesmo tempo. Depois disso, cada um tenta pegar o garfo da direita, mas esse garfo já está sendo usado pelo filósofo vizinho. A condição de Coffman presente nesse caso é a espera circular, pois cada filósofo segura um garfo e espera pelo garfo que está com outro filósofo.<br>
+O deadlock pode acontecer quando todos os filósofos pegam o garfo da esquerda ao mesmo tempo. Depois disso, cada um tenta pegar o garfo da direita, mas esse garfo já está sendo usado pelo filósofo vizinho. A condição presente nesse caso é a espera circular, pois cada filósofo segura um garfo e espera pelo garfo que está com outro filósofo.<br>
 
 **Pseudocódigo da versão ingênua**<br>
 
@@ -138,7 +128,7 @@ Nessa versão, o progresso não é garantido, pois as threads podem ficar presas
 
 <br><br>
 
-A saída do código do arquivo filosofostravdo.py, onde pode ocorrer deadlock:<br>
+A saída do código do arquivo FilosofosTravado.py, onde pode ocorrer deadlock:<br>
 
 <img width="1265" height="440" alt="Captura de tela 2026-06-17 161844" src="https://github.com/user-attachments/assets/d80a520b-79eb-48d8-a4d2-57faf63c50bf" />
 

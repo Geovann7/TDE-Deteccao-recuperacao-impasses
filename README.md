@@ -95,6 +95,50 @@ Para encerrar: Ctrl + C<br>
 **Isso elimina a espera circular, a condição de Coffman que causaria o deadlock.**
 <br>
 
+**Cenário com Deadlock**<br>
+No arquivo filosofostravado.py, foi implementada a versão ingênua do problema do Jantar dos Filósofos. Nessa versão, existem 5 filósofos e 5 garfos. Cada filósofo alterna entre pensar, ficar com fome e tentar comer.<br>
+
+Para comer, cada filósofo tenta pegar primeiro o garfo da esquerda e depois o grafo da direita:<br>
+
+garfos[garfo_esquerda].acquire()<br>
+time.sleep(1)<br>
+garfos[garfo_direita].acquire()<br>
+
+O deadlock pode acontecer quando todos os filósofos pegam o garfo da esquerda ao mesmo tempo. Depois disso, cada um tenta pegar o garfo da direita, mas esse garfo já está sendo usado pelo filósofo vizinho. A condição de Coffman presente nesse caso é a espera circular, pois cada filósofo segura um garfo e espera pelo garfo que está com outro filósofo.<br>
+
+**Pseudocódigo da versão ingênua**<br>
+
+Início<br>
+
+Criar 5 filósofos
+Criar 5 garfos<br>
+
+Para cada filósofo:
+Pensar
+ficar com fome<br>
+
+Definir garfo da esquerda
+Definir garfo da direita<br>
+
+Comer<br>
+
+Soltar garfo da direita
+Soltar garfo da esquerda<br>
+
+Volta a pensar<br>
+Fim<br>
+
+Nessa versão, o progresso não é garantido, pois as threads podem ficar presas em deadlock. Quando isso acontece, nenhum filósofo consegue continuar comendo, porque todos ficam esperando pelo segundo garfo.<br>
+
+**Execução**<br>
+Terminal: python filosofostravados.py
+para encerrar é o botão do pycharm: stop 'filosofostravado'<br>
+
+A saída do código do arquivo filosofostravdo.py, onde pode ocorrer deadlock:
+
+<img width="1265" height="440" alt="Captura de tela 2026-06-17 161844" src="https://github.com/user-attachments/assets/d80a520b-79eb-48d8-a4d2-57faf63c50bf" />
+
+
 ## Módulo 2 - THREADS E SEMÁFOROS
 **Cenário sem sincronização**<br>
 **Problema:** 8 threads incrementam 200.000 vezes cada uma uma variável global contador, sem nenhum mecanismo de controle de acesso. O valor esperado é T × M = 8 × 200.000 = 1.600.000, mas a operação de incremento não é atômica, podendo causar condição de corrida (Race Condition).

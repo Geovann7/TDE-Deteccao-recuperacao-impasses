@@ -1,3 +1,4 @@
+
 # TDE-Deteccao-recuperacao-impasses
 
 VÍDEO DO YOUTUBE
@@ -51,11 +52,14 @@ Prints/logs de execução
 
 **Saída do código do arquivo "DeadlockTrava.py", onde vai ocorrer um deadlock.**
 
+<img width="297" height="198" alt="Captura de tela de 2026-06-17 01-46-25" src="https://github.com/user-attachments/assets/dd91cb57-882e-4346-9a0c-b9bf1029de2b" />
+
+**Saída do código do arquivo "DeadlockSemTravar.py", onde não ocorre deadlock.**
+
+ <img width="319" height="317" alt="Captura de tela de 2026-06-17 01-46-36" src="https://github.com/user-attachments/assets/0bca3290-e952-4a1b-8848-ae7f850816e9" />
 
 
- 
 públic
- 
 no GitHub contendo todo o material do
 trabalho.
 

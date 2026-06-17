@@ -11,7 +11,7 @@ for i in range(filo):
 def funcao(i):
     while True:
         print("Filosofo", i, " pensando")
-        time.sleep(random.randint(3, 6))  # tempo de pensar ajustado
+        time.sleep(random.randint(4, 10))  
 
         print("Filosofo", i, "com fome")
 
@@ -25,7 +25,7 @@ def funcao(i):
         garfos[maior].acquire()
 
         print("Filosofo", i, " comendo")
-        time.sleep(random.randint(2, 4))  
+        time.sleep(random.randint(4, 10))  
 
         garfos[maior].release()
         garfos[menor].release()
